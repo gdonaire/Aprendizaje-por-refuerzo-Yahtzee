@@ -1,0 +1,8 @@
+{
+  "variant": "dqn_baseline",
+  "seed": 42,
+  "best_dir": "best/dqn_variants/dqn_baseline/seed_42/best",
+  "elapsed_sec": 1966.273559808731,
+  "mean_reward": 150.01800002279458,
+  "mean_score": 152.16
+}

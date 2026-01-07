@@ -1,0 +1,8 @@
+{
+  "variant": "qrdqn_nq101_batch64",
+  "seed": 42,
+  "best_dir": "best/qrdqn_variants/qrdqn_nq101_batch64/seed_42/best",
+  "elapsed_sec": 9693.570803403854,
+  "mean_reward": 146.42570016797515,
+  "mean_score": 148.66
+}

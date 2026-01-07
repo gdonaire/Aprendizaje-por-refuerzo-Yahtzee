@@ -1,0 +1,272 @@
+INFO:train_a2c_vecnorm:Creando 8 entornos paralelos con VecNormalize...
+INFO:train_a2c_vecnorm:Activando wrapper de reparacion de acciones invalidas durante TRAINING...
+INFO:train_a2c_vecnorm:Aplicando VecNormalize (obs y reward normalizados)...
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 1 por 400000 timesteps...
+Argumentos de entrenamiento:
+  timesteps: 400000
+  timesteps2: 400000
+  timesteps3: 300000
+  n_envs: 8
+  seed: 84
+  lr: 0.0003
+  n_steps: 64
+  gamma: 0.995
+  ent_coef: 0.02
+  gae_lambda: 0.95
+  repair_actions_training: True
+  eval_episodes: 50
+  best_dir: best/a2c_ablation/a2c_baseline/seed_84/best
+  plot_ma_long: 200
+Using cpu device
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 34.9     |
+|    ep_rew_mean        | 90.1     |
+| time/                 |          |
+|    fps                | 1736     |
+|    iterations         | 100      |
+|    time_elapsed       | 29       |
+|    total_timesteps    | 51200    |
+| train/                |          |
+|    entropy_loss       | -3.7     |
+|    explained_variance | 0.842    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 99       |
+|    policy_loss        | -0.129   |
+|    value_loss         | 0.181    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 35.4     |
+|    ep_rew_mean        | 93.9     |
+| time/                 |          |
+|    fps                | 1623     |
+|    iterations         | 200      |
+|    time_elapsed       | 63       |
+|    total_timesteps    | 102400   |
+| train/                |          |
+|    entropy_loss       | -3.66    |
+|    explained_variance | 0.912    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 199      |
+|    policy_loss        | -0.266   |
+|    value_loss         | 0.104    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 36.1     |
+|    ep_rew_mean        | 96.8     |
+| time/                 |          |
+|    fps                | 1576     |
+|    iterations         | 300      |
+|    time_elapsed       | 97       |
+|    total_timesteps    | 153600   |
+| train/                |          |
+|    entropy_loss       | -3.61    |
+|    explained_variance | 0.837    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 299      |
+|    policy_loss        | 0.59     |
+|    value_loss         | 0.227    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 36.4     |
+|    ep_rew_mean        | 105      |
+| time/                 |          |
+|    fps                | 1620     |
+|    iterations         | 400      |
+|    time_elapsed       | 126      |
+|    total_timesteps    | 204800   |
+| train/                |          |
+|    entropy_loss       | -3.6     |
+|    explained_variance | 0.922    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 399      |
+|    policy_loss        | -0.449   |
+|    value_loss         | 0.104    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 36.8     |
+|    ep_rew_mean        | 103      |
+| time/                 |          |
+|    fps                | 1635     |
+|    iterations         | 500      |
+|    time_elapsed       | 156      |
+|    total_timesteps    | 256000   |
+| train/                |          |
+|    entropy_loss       | -3.61    |
+|    explained_variance | 0.899    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 499      |
+|    policy_loss        | -0.48    |
+|    value_loss         | 0.131    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 37.3     |
+|    ep_rew_mean        | 105      |
+| time/                 |          |
+|    fps                | 1640     |
+|    iterations         | 600      |
+|    time_elapsed       | 187      |
+|    total_timesteps    | 307200   |
+| train/                |          |
+|    entropy_loss       | -3.6     |
+|    explained_variance | 0.866    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 599      |
+|    policy_loss        | 0.382    |
+|    value_loss         | 0.207    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 37.6     |
+|    ep_rew_mean        | 108      |
+| time/                 |          |
+|    fps                | 1649     |
+|    iterations         | 700      |
+|    time_elapsed       | 217      |
+|    total_timesteps    | 358400   |
+| train/                |          |
+|    entropy_loss       | -3.59    |
+|    explained_variance | 0.878    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 699      |
+|    policy_loss        | 0.53     |
+|    value_loss         | 0.209    |
+------------------------------------
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 2 por 400000 timesteps...
+Using cpu device
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 38       |
+|    ep_rew_mean        | 112      |
+| time/                 |          |
+|    fps                | 1697     |
+|    iterations         | 100      |
+|    time_elapsed       | 60       |
+|    total_timesteps    | 102400   |
+| train/                |          |
+|    entropy_loss       | -3.56    |
+|    explained_variance | 0.867    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 99       |
+|    policy_loss        | 0.32     |
+|    value_loss         | 0.199    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 38.4     |
+|    ep_rew_mean        | 112      |
+| time/                 |          |
+|    fps                | 1725     |
+|    iterations         | 200      |
+|    time_elapsed       | 118      |
+|    total_timesteps    | 204800   |
+| train/                |          |
+|    entropy_loss       | -3.51    |
+|    explained_variance | 0.856    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 199      |
+|    policy_loss        | 0.139    |
+|    value_loss         | 0.191    |
+------------------------------------
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 38.4     |
+|    ep_rew_mean        | 109      |
+| time/                 |          |
+|    fps                | 1763     |
+|    iterations         | 300      |
+|    time_elapsed       | 174      |
+|    total_timesteps    | 307200   |
+| train/                |          |
+|    entropy_loss       | -3.5     |
+|    explained_variance | 0.868    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 299      |
+|    policy_loss        | 0.027    |
+|    value_loss         | 0.166    |
+------------------------------------
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 3 por 300000 timesteps...
+Using cpu device
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 38.5     |
+|    ep_rew_mean        | 109      |
+| time/                 |          |
+|    fps                | 1992     |
+|    iterations         | 100      |
+|    time_elapsed       | 77       |
+|    total_timesteps    | 153600   |
+| train/                |          |
+|    entropy_loss       | -3.49    |
+|    explained_variance | 0.868    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 99       |
+|    policy_loss        | 0.118    |
+|    value_loss         | 0.162    |
+------------------------------------
+INFO:train_a2c_vecnorm:Modelo guardado en best/a2c_ablation/a2c_baseline/seed_84/best/a2c_yahtzee_vecnorm_final y estadisticas de normalizacion en best/a2c_ablation/a2c_baseline/seed_84/best/a2c_vecnorm_stats.pkl
+INFO:final_evaluate_rl:Autodeteccion: modelo=best/a2c_ablation/a2c_baseline/seed_84/best/a2c_yahtzee_vecnorm_final, stats=best/a2c_ablation/a2c_baseline/seed_84/best/a2c_vecnorm_stats.pkl, algo=a2c
+INFO:final_evaluate_rl:Cargando modelo: best/a2c_ablation/a2c_baseline/seed_84/best/a2c_yahtzee_vecnorm_final
+INFO:final_evaluate_rl:Algo detectado/forzado: a2c
+INFO:final_evaluate_rl:Evaluando el modelo con recompensas SIN normalizar(evaluacion segura)...
+INFO:final_evaluate_rl:Episode 1: Recompensa del episodio: 144.7369983571116, Puntuacion final: 147.0
+INFO:final_evaluate_rl:Episode 2: Recompensa del episodio: 103.24599969759583, Puntuacion final: 106.0
+INFO:final_evaluate_rl:Episode 3: Recompensa del episodio: 167.70200279401615, Puntuacion final: 170.0
+INFO:final_evaluate_rl:Episode 4: Recompensa del episodio: 162.79949942650273, Puntuacion final: 166.0
+INFO:final_evaluate_rl:Episode 5: Recompensa del episodio: 99.82099810778163, Puntuacion final: 103.0
+INFO:final_evaluate_rl:Episode 6: Recompensa del episodio: 104.45549873053096, Puntuacion final: 106.0
+INFO:final_evaluate_rl:Episode 7: Recompensa del episodio: 138.63900069112424, Puntuacion final: 140.0
+INFO:final_evaluate_rl:Episode 8: Recompensa del episodio: 104.2329989458085, Puntuacion final: 106.0
+INFO:final_evaluate_rl:Episode 9: Recompensa del episodio: 78.67249836452538, Puntuacion final: 81.0
+INFO:final_evaluate_rl:Episode 10: Recompensa del episodio: 95.13150014798157, Puntuacion final: 97.0
+INFO:final_evaluate_rl:Episode 11: Recompensa del episodio: 125.71399842749815, Puntuacion final: 127.0
+INFO:final_evaluate_rl:Episode 12: Recompensa del episodio: 136.09749852551613, Puntuacion final: 138.0
+INFO:final_evaluate_rl:Episode 13: Recompensa del episodio: 74.56100007891655, Puntuacion final: 77.0
+INFO:final_evaluate_rl:Episode 14: Recompensa del episodio: 98.68500012764707, Puntuacion final: 101.0
+INFO:final_evaluate_rl:Episode 15: Recompensa del episodio: 116.35650042141788, Puntuacion final: 119.0
+INFO:final_evaluate_rl:Episode 16: Recompensa del episodio: 84.81849962170236, Puntuacion final: 88.0
+INFO:final_evaluate_rl:Episode 17: Recompensa del episodio: 145.92300059413537, Puntuacion final: 148.0
+INFO:final_evaluate_rl:Episode 18: Recompensa del episodio: 96.36349974386394, Puntuacion final: 99.0
+INFO:final_evaluate_rl:Episode 19: Recompensa del episodio: 139.8305008111056, Puntuacion final: 143.0
+INFO:final_evaluate_rl:Episode 20: Recompensa del episodio: 84.84199952473864, Puntuacion final: 87.0
+INFO:final_evaluate_rl:Episode 21: Recompensa del episodio: 122.81549896259094, Puntuacion final: 126.0
+INFO:final_evaluate_rl:Episode 22: Recompensa del episodio: 117.34200017398689, Puntuacion final: 119.0
+INFO:final_evaluate_rl:Episode 23: Recompensa del episodio: 83.86599966324866, Puntuacion final: 87.0
+INFO:final_evaluate_rl:Episode 24: Recompensa del episodio: 84.65599964547437, Puntuacion final: 86.0
+INFO:final_evaluate_rl:Episode 25: Recompensa del episodio: 102.70999940973707, Puntuacion final: 105.0
+INFO:final_evaluate_rl:Episode 26: Recompensa del episodio: 105.75199875445105, Puntuacion final: 107.0
+INFO:final_evaluate_rl:Episode 27: Recompensa del episodio: 107.66349996090867, Puntuacion final: 109.0
+INFO:final_evaluate_rl:Episode 28: Recompensa del episodio: 104.77349920466077, Puntuacion final: 107.0
+INFO:final_evaluate_rl:Episode 29: Recompensa del episodio: 102.0100014480995, Puntuacion final: 104.0
+INFO:final_evaluate_rl:Episode 30: Recompensa del episodio: 158.77149777003797, Puntuacion final: 162.0
+INFO:final_evaluate_rl:Episode 31: Recompensa del episodio: 125.0929985512048, Puntuacion final: 127.0
+INFO:final_evaluate_rl:Episode 32: Recompensa del episodio: 127.81349855847657, Puntuacion final: 130.0
+INFO:final_evaluate_rl:Episode 33: Recompensa del episodio: 78.98749904264696, Puntuacion final: 81.0
+INFO:final_evaluate_rl:Episode 34: Recompensa del episodio: 128.14750216488028, Puntuacion final: 130.0
+INFO:final_evaluate_rl:Episode 35: Recompensa del episodio: 105.82200047571678, Puntuacion final: 109.0
+INFO:final_evaluate_rl:Episode 36: Recompensa del episodio: 88.88099799049087, Puntuacion final: 91.0
+INFO:final_evaluate_rl:Episode 37: Recompensa del episodio: 54.86249984859023, Puntuacion final: 58.0
+INFO:final_evaluate_rl:Episode 38: Recompensa del episodio: 139.30450211116113, Puntuacion final: 142.0
+INFO:final_evaluate_rl:Episode 39: Recompensa del episodio: 105.45799894724041, Puntuacion final: 107.0
+INFO:final_evaluate_rl:Episode 40: Recompensa del episodio: 147.6275002179318, Puntuacion final: 150.0
+INFO:final_evaluate_rl:Episode 41: Recompensa del episodio: 126.54450027644634, Puntuacion final: 128.0
+INFO:final_evaluate_rl:Episode 42: Recompensa del episodio: 145.81150000321213, Puntuacion final: 150.0
+INFO:final_evaluate_rl:Episode 43: Recompensa del episodio: 101.8444997605402, Puntuacion final: 104.0
+INFO:final_evaluate_rl:Episode 44: Recompensa del episodio: 130.6734992066631, Puntuacion final: 133.0
+INFO:final_evaluate_rl:Episode 45: Recompensa del episodio: 128.83949691755697, Puntuacion final: 130.0
+INFO:final_evaluate_rl:Episode 46: Recompensa del episodio: 165.00049925001804, Puntuacion final: 167.0
+INFO:final_evaluate_rl:Episode 47: Recompensa del episodio: 130.31299985409714, Puntuacion final: 132.0
+INFO:final_evaluate_rl:Episode 48: Recompensa del episodio: 149.5250001740642, Puntuacion final: 151.0
+INFO:final_evaluate_rl:Episode 49: Recompensa del episodio: 115.87649895693175, Puntuacion final: 119.0
+INFO:final_evaluate_rl:Episode 50: Recompensa del episodio: 143.1504995309515, Puntuacion final: 145.0
+INFO:final_evaluate_rl:Metricas guardadas en a2c_vecnorm_final_evaluation_metrics.txt
+Grafica guardada en best/a2c_ablation/a2c_baseline/seed_84/best/a2c_vecnorm_reward_evolution.png
+
+Resumen:
+  Recompensa media (sin normalizar): 116.6513
+  Puntuacion final promedio:        118.9000

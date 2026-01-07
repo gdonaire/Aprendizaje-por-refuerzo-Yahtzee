@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+mppo_baseline,42,best/mppo_ablation/mppo_baseline/seed_42/best,2655.5791623592377,133.38152006398653,135.48
+mppo_baseline,84,best/mppo_ablation/mppo_baseline/seed_84/best,1985.3619556427002,144.72512977382632,146.96
+mppo_baseline,126,best/mppo_ablation/mppo_baseline/seed_126/best,1864.1898908615112,137.74834000310977,139.72

@@ -1,0 +1,8 @@
+{
+  "variant": "mppo_baseline",
+  "seed": 84,
+  "best_dir": "best/mppo_ablation/mppo_baseline/seed_84/best",
+  "elapsed_sec": 1985.3619556427002,
+  "mean_reward": 144.72512977382632,
+  "mean_score": 146.96
+}

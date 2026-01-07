@@ -1,0 +1,8 @@
+{
+  "variant": "mppo_highhorizon_lowvar",
+  "seed": 126,
+  "best_dir": "best/mppo_ablation/mppo_highhorizon_lowvar/seed_126/best",
+  "elapsed_sec": 1477.254967212677,
+  "mean_reward": 126.1908098904707,
+  "mean_score": 128.34
+}

@@ -1,0 +1,8 @@
+{
+  "variant": "a2c_baseline",
+  "seed": 126,
+  "best_dir": "best/a2c_ablation/a2c_baseline/seed_126/best",
+  "elapsed_sec": 569.6506478786469,
+  "mean_reward": 121.33088981699315,
+  "mean_score": 123.56
+}

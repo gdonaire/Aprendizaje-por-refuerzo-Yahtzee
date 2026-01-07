@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+a2c_highhorizon_lowvar,42,best/a2c_ablation/a2c_highhorizon_lowvar/seed_42/best,569.2473564147949,116.31937000481179,118.54
+a2c_highhorizon_lowvar,84,best/a2c_ablation/a2c_highhorizon_lowvar/seed_84/best,586.5606455802917,114.29192974052276,116.4
+a2c_highhorizon_lowvar,126,best/a2c_ablation/a2c_highhorizon_lowvar/seed_126/best,566.081680059433,111.16289980344358,113.38

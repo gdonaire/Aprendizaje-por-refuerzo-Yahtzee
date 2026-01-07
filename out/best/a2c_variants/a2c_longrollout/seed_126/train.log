@@ -1,0 +1,102 @@
+INFO:train_a2c_vecnorm:Creando 8 entornos paralelos con VecNormalize...
+INFO:train_a2c_vecnorm:Activando wrapper de reparacion de acciones invalidas durante TRAINING...
+INFO:train_a2c_vecnorm:Aplicando VecNormalize (obs y reward normalizados)...
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 1 por 400000 timesteps...
+Argumentos de entrenamiento:
+  timesteps: 400000
+  timesteps2: 400000
+  timesteps3: 300000
+  n_envs: 8
+  seed: 126
+  lr: 0.0003
+  n_steps: 256
+  gamma: 0.995
+  ent_coef: 0.02
+  gae_lambda: 0.95
+  repair_actions_training: True
+  eval_episodes: 50
+  best_dir: best/a2c_ablation/a2c_longrollout/seed_126/best
+  plot_ma_long: 200
+Using cpu device
+------------------------------------
+| rollout/              |          |
+|    ep_len_mean        | 35.2     |
+|    ep_rew_mean        | 95.8     |
+| time/                 |          |
+|    fps                | 1938     |
+|    iterations         | 100      |
+|    time_elapsed       | 105      |
+|    total_timesteps    | 204800   |
+| train/                |          |
+|    entropy_loss       | -3.65    |
+|    explained_variance | 0.845    |
+|    learning_rate      | 0.0003   |
+|    n_updates          | 99       |
+|    policy_loss        | -0.166   |
+|    value_loss         | 0.184    |
+------------------------------------
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 2 por 400000 timesteps...
+INFO:train_a2c_vecnorm:Entrenando A2C Fase 3 por 300000 timesteps...
+INFO:train_a2c_vecnorm:Modelo guardado en best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_yahtzee_vecnorm_final y estadisticas de normalizacion en best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_vecnorm_stats.pkl
+INFO:final_evaluate_rl:Autodeteccion: modelo=best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_yahtzee_vecnorm_final, stats=best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_vecnorm_stats.pkl, algo=a2c
+INFO:final_evaluate_rl:Cargando modelo: best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_yahtzee_vecnorm_final
+INFO:final_evaluate_rl:Algo detectado/forzado: a2c
+INFO:final_evaluate_rl:Evaluando el modelo con recompensas SIN normalizar(evaluacion segura)...
+INFO:final_evaluate_rl:Episode 1: Recompensa del episodio: 109.36100117000751, Puntuacion final: 111.0
+INFO:final_evaluate_rl:Episode 2: Recompensa del episodio: 53.98149972374085, Puntuacion final: 56.0
+INFO:final_evaluate_rl:Episode 3: Recompensa del episodio: 103.86050046177115, Puntuacion final: 106.0
+INFO:final_evaluate_rl:Episode 4: Recompensa del episodio: 90.11849955026992, Puntuacion final: 92.0
+INFO:final_evaluate_rl:Episode 5: Recompensa del episodio: 131.04950068541802, Puntuacion final: 133.0
+INFO:final_evaluate_rl:Episode 6: Recompensa del episodio: 93.38499951106496, Puntuacion final: 95.0
+INFO:final_evaluate_rl:Episode 7: Recompensa del episodio: 95.86349912383594, Puntuacion final: 97.0
+INFO:final_evaluate_rl:Episode 8: Recompensa del episodio: 136.00800105114467, Puntuacion final: 138.0
+INFO:final_evaluate_rl:Episode 9: Recompensa del episodio: 99.15500180318486, Puntuacion final: 101.0
+INFO:final_evaluate_rl:Episode 10: Recompensa del episodio: 125.74650086427573, Puntuacion final: 128.0
+INFO:final_evaluate_rl:Episode 11: Recompensa del episodio: 128.04199886706192, Puntuacion final: 130.0
+INFO:final_evaluate_rl:Episode 12: Recompensa del episodio: 137.1314993800479, Puntuacion final: 140.0
+INFO:final_evaluate_rl:Episode 13: Recompensa del episodio: 114.46900083636865, Puntuacion final: 116.0
+INFO:final_evaluate_rl:Episode 14: Recompensa del episodio: 66.43599921581335, Puntuacion final: 68.0
+INFO:final_evaluate_rl:Episode 15: Recompensa del episodio: 142.15000374533702, Puntuacion final: 144.0
+INFO:final_evaluate_rl:Episode 16: Recompensa del episodio: 119.22299927473068, Puntuacion final: 121.0
+INFO:final_evaluate_rl:Episode 17: Recompensa del episodio: 92.14699863042915, Puntuacion final: 94.0
+INFO:final_evaluate_rl:Episode 18: Recompensa del episodio: 113.33849911252037, Puntuacion final: 116.0
+INFO:final_evaluate_rl:Episode 19: Recompensa del episodio: 74.04599928442622, Puntuacion final: 76.0
+INFO:final_evaluate_rl:Episode 20: Recompensa del episodio: 99.68650133116171, Puntuacion final: 101.0
+INFO:final_evaluate_rl:Episode 21: Recompensa del episodio: 126.80150063405745, Puntuacion final: 130.0
+INFO:final_evaluate_rl:Episode 22: Recompensa del episodio: 135.3344994992949, Puntuacion final: 138.0
+INFO:final_evaluate_rl:Episode 23: Recompensa del episodio: 110.76299863914028, Puntuacion final: 112.0
+INFO:final_evaluate_rl:Episode 24: Recompensa del episodio: 137.81900211342145, Puntuacion final: 139.0
+INFO:final_evaluate_rl:Episode 25: Recompensa del episodio: 118.13400064455345, Puntuacion final: 121.0
+INFO:final_evaluate_rl:Episode 26: Recompensa del episodio: 96.8874994473299, Puntuacion final: 99.0
+INFO:final_evaluate_rl:Episode 27: Recompensa del episodio: 105.15850249864161, Puntuacion final: 107.0
+INFO:final_evaluate_rl:Episode 28: Recompensa del episodio: 130.46299990743864, Puntuacion final: 132.0
+INFO:final_evaluate_rl:Episode 29: Recompensa del episodio: 93.23850003408734, Puntuacion final: 95.0
+INFO:final_evaluate_rl:Episode 30: Recompensa del episodio: 100.27899911894929, Puntuacion final: 102.0
+INFO:final_evaluate_rl:Episode 31: Recompensa del episodio: 92.92749968823045, Puntuacion final: 95.0
+INFO:final_evaluate_rl:Episode 32: Recompensa del episodio: 161.39600210741628, Puntuacion final: 163.0
+INFO:final_evaluate_rl:Episode 33: Recompensa del episodio: 188.59500233689323, Puntuacion final: 191.0
+INFO:final_evaluate_rl:Episode 34: Recompensa del episodio: 83.39349971804768, Puntuacion final: 86.0
+INFO:final_evaluate_rl:Episode 35: Recompensa del episodio: 155.0130012743757, Puntuacion final: 157.0
+INFO:final_evaluate_rl:Episode 36: Recompensa del episodio: 173.80250236508437, Puntuacion final: 175.0
+INFO:final_evaluate_rl:Episode 37: Recompensa del episodio: 163.4149994936306, Puntuacion final: 165.0
+INFO:final_evaluate_rl:Episode 38: Recompensa del episodio: 89.95449971640483, Puntuacion final: 92.0
+INFO:final_evaluate_rl:Episode 39: Recompensa del episodio: 83.84000142954756, Puntuacion final: 87.0
+INFO:final_evaluate_rl:Episode 40: Recompensa del episodio: 127.32799818785861, Puntuacion final: 129.0
+INFO:final_evaluate_rl:Episode 41: Recompensa del episodio: 162.01650071435142, Puntuacion final: 164.0
+INFO:final_evaluate_rl:Episode 42: Recompensa del episodio: 169.90300112991827, Puntuacion final: 172.0
+INFO:final_evaluate_rl:Episode 43: Recompensa del episodio: 91.85450007428881, Puntuacion final: 95.0
+INFO:final_evaluate_rl:Episode 44: Recompensa del episodio: 102.92949969158508, Puntuacion final: 105.0
+INFO:final_evaluate_rl:Episode 45: Recompensa del episodio: 157.73900102108018, Puntuacion final: 160.0
+INFO:final_evaluate_rl:Episode 46: Recompensa del episodio: 101.3510002119001, Puntuacion final: 104.0
+INFO:final_evaluate_rl:Episode 47: Recompensa del episodio: 136.67650136491284, Puntuacion final: 139.0
+INFO:final_evaluate_rl:Episode 48: Recompensa del episodio: 124.5480016489746, Puntuacion final: 126.0
+INFO:final_evaluate_rl:Episode 49: Recompensa del episodio: 109.55350138898939, Puntuacion final: 111.0
+INFO:final_evaluate_rl:Episode 50: Recompensa del episodio: 142.83200146385934, Puntuacion final: 147.0
+INFO:final_evaluate_rl:Metricas guardadas en a2c_vecnorm_final_evaluation_metrics.txt
+Using cpu device
+Using cpu device
+Grafica guardada en best/a2c_ablation/a2c_longrollout/seed_126/best/a2c_vecnorm_reward_evolution.png
+
+Resumen:
+  Recompensa media (sin normalizar): 117.9829
+  Puntuacion final promedio:        120.0200

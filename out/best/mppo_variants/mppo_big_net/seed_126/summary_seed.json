@@ -1,0 +1,8 @@
+{
+  "variant": "mppo_big_net",
+  "seed": 126,
+  "best_dir": "best/mppo_variants/mppo_big_net/seed_126/best",
+  "elapsed_sec": 4185.958966493607,
+  "mean_reward": 125.05820036246558,
+  "mean_score": 127.3
+}

@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+dqn_baseline,42,best/dqn_variants/dqn_baseline/seed_42/best,1966.273559808731,150.01800002279458,152.16
+dqn_baseline,84,best/dqn_variants/dqn_baseline/seed_84/best,1887.1563572883606,149.54832027226337,151.72
+dqn_baseline,126,best/dqn_variants/dqn_baseline/seed_126/best,1694.9485883712769,150.16241007692645,152.3

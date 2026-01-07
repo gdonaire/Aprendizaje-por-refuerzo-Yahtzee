@@ -1,0 +1,6 @@
+Episodios: 50
+Semilla: 84
+Modelo: a2c_yahtzee_vecnorm_final
+Stats: a2c_vecnorm_stats.pkl
+Recompensa media (sin normalizar): 114.29192974052276
+Puntuacion final promedio: 116.4

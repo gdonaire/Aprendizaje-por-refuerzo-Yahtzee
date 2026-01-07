@@ -1,0 +1,8 @@
+{
+  "variant": "mppo_conservative_clip_kl",
+  "seed": 126,
+  "best_dir": "best/mppo_ablation/mppo_conservative_clip_kl/seed_126/best",
+  "elapsed_sec": 1635.384649515152,
+  "mean_reward": 130.61712978724273,
+  "mean_score": 132.66
+}

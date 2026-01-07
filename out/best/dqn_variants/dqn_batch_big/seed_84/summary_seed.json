@@ -1,0 +1,8 @@
+{
+  "variant": "dqn_batch_big",
+  "seed": 84,
+  "best_dir": "best/dqn_variants/dqn_batch_big/seed_84/best",
+  "elapsed_sec": 1943.1892273426056,
+  "mean_reward": 150.7003401779046,
+  "mean_score": 152.94
+}

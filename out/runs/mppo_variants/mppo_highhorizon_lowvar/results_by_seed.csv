@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+mppo_highhorizon_lowvar,42,best/mppo_ablation/mppo_highhorizon_lowvar/seed_42/best,1576.025342464447,130.48923987750896,132.62
+mppo_highhorizon_lowvar,84,best/mppo_ablation/mppo_highhorizon_lowvar/seed_84/best,1511.8044748306274,138.13476985645946,140.28
+mppo_highhorizon_lowvar,126,best/mppo_ablation/mppo_highhorizon_lowvar/seed_126/best,1477.254967212677,126.1908098904707,128.34

@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+a2c_longrollout,42,best/a2c_ablation/a2c_longrollout/seed_42/best,596.0549247264862,111.38512974838378,113.58
+a2c_longrollout,84,best/a2c_ablation/a2c_longrollout/seed_84/best,564.2159352302551,117.61786985230516,119.82
+a2c_longrollout,126,best/a2c_ablation/a2c_longrollout/seed_126/best,573.2794995307922,117.98291042373748,120.02

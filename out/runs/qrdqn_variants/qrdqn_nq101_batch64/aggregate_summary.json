@@ -1,0 +1,8 @@
+{
+  "n_runs": 3,
+  "mean_reward_mean": 145.11777009236278,
+  "mean_reward_std": 10.471920742796982,
+  "mean_score_mean": 147.36,
+  "mean_score_std": 10.434570746641509,
+  "elapsed_mean_sec": 9725.490969498953
+}

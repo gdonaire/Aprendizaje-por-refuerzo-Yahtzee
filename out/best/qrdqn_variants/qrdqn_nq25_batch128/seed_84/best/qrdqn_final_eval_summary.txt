@@ -1,0 +1,6 @@
+Episodios: 50
+Semilla: 84
+Modelo: qrdqn_yahtzee_vecnorm_model
+Stats: qrdqn_yahtzee_vecnorm_stats.pkl
+Recompensa media (sin normalizar): 155.03968999458127
+Puntuacion final promedio: 157.24

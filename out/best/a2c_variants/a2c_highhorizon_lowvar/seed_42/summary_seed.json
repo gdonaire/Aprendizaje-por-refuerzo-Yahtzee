@@ -1,0 +1,8 @@
+{
+  "variant": "a2c_highhorizon_lowvar",
+  "seed": 42,
+  "best_dir": "best/a2c_ablation/a2c_highhorizon_lowvar/seed_42/best",
+  "elapsed_sec": 569.2473564147949,
+  "mean_reward": 116.31937000481179,
+  "mean_score": 118.54
+}

@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+a2c_baseline,42,best/a2c_ablation/a2c_baseline/seed_42/best,673.9155740737915,116.96058982069604,119.14
+a2c_baseline,84,best/a2c_ablation/a2c_baseline/seed_84/best,624.9839224815369,116.65128959943075,118.9
+a2c_baseline,126,best/a2c_ablation/a2c_baseline/seed_126/best,569.6506478786469,121.33088981699315,123.56

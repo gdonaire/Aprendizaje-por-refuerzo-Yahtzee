@@ -1,0 +1,115 @@
+INFO:train_dqn_vecnorm:Creando 8 entornos paralelos...
+INFO:train_dqn_vecnorm:Activando wrapper de reparacion de acciones invalidas durante TRAINING...
+INFO:train_dqn_vecnorm:Activando wrapper de recompensa REAL por episodio (antes de VecNormalize)...
+INFO:train_dqn_vecnorm:Aplicando VecNormalize (obs y reward normalizados)...
+INFO:train_dqn_vecnorm:Entrenando DQN Fase 1 por 400000 timesteps...
+Argumentos de entrenamiento DQN:
+  timesteps: 400000
+  timesteps2: 400000
+  timesteps3: 300000
+  n_envs: 8
+  seed: 126
+  lr: 0.0001
+  buffer_size: 1000000
+  learning_starts: 10000
+  batch_size: 64
+  gamma: 0.99
+  n_steps: 3
+  train_freq: 1
+  gradient_steps: 1
+  target_update_interval: 10000
+  exploration_fraction: 0.3
+  exploration_initial_eps: 1.0
+  exploration_final_eps: 0.05
+  repair_actions_training: True
+  eval_episodes: 50
+  best_dir: best/dqn_variants/dqn_baseline/seed_126/best
+  plot_ma_long: 200
+Using cpu device
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 30.5     |
+|    ep_rew_mean      | 49       |
+|    exploration_rate | 0.998    |
+| time/               |          |
+|    episodes         | 4        |
+|    fps              | 3530     |
+|    time_elapsed     | 0        |
+|    total_timesteps  | 264      |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 36.4     |
+|    ep_rew_mean      | 142      |
+|    exploration_rate | 0.05     |
+| time/               |          |
+|    episodes         | 8264     |
+|    fps              | 568      |
+|    time_elapsed     | 527      |
+|    total_timesteps  | 299888   |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 0.0286   |
+|    n_updates        | 74970    |
+----------------------------------
+INFO:train_dqn_vecnorm:Modelo guardado en best/dqn_variants/dqn_baseline/seed_126/best/dqn_yahtzee_vecnorm_model y estadisticas de normalizacion en best/dqn_variants/dqn_baseline/seed_126/best/dqn_yahtzee_vecnorm_stats.pkl
+INFO:final_evaluate_rl:Autodeteccion: modelo=best/dqn_variants/dqn_baseline/seed_126/best/dqn_yahtzee_vecnorm_model, stats=best/dqn_variants/dqn_baseline/seed_126/best/dqn_yahtzee_vecnorm_stats.pkl, algo=dqn
+INFO:final_evaluate_rl:Cargando modelo: best/dqn_variants/dqn_baseline/seed_126/best/dqn_yahtzee_vecnorm_model
+INFO:final_evaluate_rl:Algo detectado/forzado: dqn
+INFO:final_evaluate_rl:Evaluando el modelo con recompensas SIN normalizar(evaluacion segura)...
+INFO:final_evaluate_rl:Episode 1: Recompensa del episodio: 164.33449973433744, Puntuacion final: 166.0
+INFO:final_evaluate_rl:Episode 2: Recompensa del episodio: 167.454499009531, Puntuacion final: 169.0
+INFO:final_evaluate_rl:Episode 3: Recompensa del episodio: 175.00250088283792, Puntuacion final: 177.0
+INFO:final_evaluate_rl:Episode 4: Recompensa del episodio: 183.01800012565218, Puntuacion final: 185.0
+INFO:final_evaluate_rl:Episode 5: Recompensa del episodio: 155.2200017273426, Puntuacion final: 157.0
+INFO:final_evaluate_rl:Episode 6: Recompensa del episodio: 111.05450008716434, Puntuacion final: 113.0
+INFO:final_evaluate_rl:Episode 7: Recompensa del episodio: 135.13050021184608, Puntuacion final: 137.0
+INFO:final_evaluate_rl:Episode 8: Recompensa del episodio: 194.09400120872306, Puntuacion final: 196.0
+INFO:final_evaluate_rl:Episode 9: Recompensa del episodio: 107.97250082693063, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 10: Recompensa del episodio: 136.41599874803796, Puntuacion final: 138.0
+INFO:final_evaluate_rl:Episode 11: Recompensa del episodio: 111.86050080804853, Puntuacion final: 115.0
+INFO:final_evaluate_rl:Episode 12: Recompensa del episodio: 86.97649876773357, Puntuacion final: 89.0
+INFO:final_evaluate_rl:Episode 13: Recompensa del episodio: 137.21900249551982, Puntuacion final: 139.0
+INFO:final_evaluate_rl:Episode 14: Recompensa del episodio: 169.78250035410747, Puntuacion final: 173.0
+INFO:final_evaluate_rl:Episode 15: Recompensa del episodio: 139.0219973968342, Puntuacion final: 141.0
+INFO:final_evaluate_rl:Episode 16: Recompensa del episodio: 149.3365007005632, Puntuacion final: 151.0
+INFO:final_evaluate_rl:Episode 17: Recompensa del episodio: 148.5985013268073, Puntuacion final: 151.0
+INFO:final_evaluate_rl:Episode 18: Recompensa del episodio: 162.70499999745516, Puntuacion final: 165.0
+INFO:final_evaluate_rl:Episode 19: Recompensa del episodio: 141.8379971558461, Puntuacion final: 144.0
+INFO:final_evaluate_rl:Episode 20: Recompensa del episodio: 180.82350125379162, Puntuacion final: 183.0
+INFO:final_evaluate_rl:Episode 21: Recompensa del episodio: 96.40049936110154, Puntuacion final: 99.0
+INFO:final_evaluate_rl:Episode 22: Recompensa del episodio: 128.48750137886964, Puntuacion final: 131.0
+INFO:final_evaluate_rl:Episode 23: Recompensa del episodio: 109.05599970649928, Puntuacion final: 111.0
+INFO:final_evaluate_rl:Episode 24: Recompensa del episodio: 180.50199797807727, Puntuacion final: 182.0
+INFO:final_evaluate_rl:Episode 25: Recompensa del episodio: 111.64049960463308, Puntuacion final: 113.0
+INFO:final_evaluate_rl:Episode 26: Recompensa del episodio: 171.91249919112306, Puntuacion final: 174.0
+INFO:final_evaluate_rl:Episode 27: Recompensa del episodio: 99.03899876610376, Puntuacion final: 101.0
+INFO:final_evaluate_rl:Episode 28: Recompensa del episodio: 148.3639989963267, Puntuacion final: 150.0
+INFO:final_evaluate_rl:Episode 29: Recompensa del episodio: 186.82799961511046, Puntuacion final: 190.0
+INFO:final_evaluate_rl:Episode 30: Recompensa del episodio: 200.93399826879613, Puntuacion final: 203.0
+INFO:final_evaluate_rl:Episode 31: Recompensa del episodio: 147.35100274533033, Puntuacion final: 150.0
+INFO:final_evaluate_rl:Episode 32: Recompensa del episodio: 132.33149971114472, Puntuacion final: 134.0
+INFO:final_evaluate_rl:Episode 33: Recompensa del episodio: 155.21500105410814, Puntuacion final: 157.0
+INFO:final_evaluate_rl:Episode 34: Recompensa del episodio: 178.41150178178214, Puntuacion final: 180.0
+INFO:final_evaluate_rl:Episode 35: Recompensa del episodio: 169.77599813276902, Puntuacion final: 173.0
+INFO:final_evaluate_rl:Episode 36: Recompensa del episodio: 115.55900041491259, Puntuacion final: 118.0
+INFO:final_evaluate_rl:Episode 37: Recompensa del episodio: 145.04400213481858, Puntuacion final: 147.0
+INFO:final_evaluate_rl:Episode 38: Recompensa del episodio: 146.8390002702945, Puntuacion final: 150.0
+INFO:final_evaluate_rl:Episode 39: Recompensa del episodio: 156.8055000465829, Puntuacion final: 158.0
+INFO:final_evaluate_rl:Episode 40: Recompensa del episodio: 175.85900351800956, Puntuacion final: 180.0
+INFO:final_evaluate_rl:Episode 41: Recompensa del episodio: 174.53650225850288, Puntuacion final: 176.0
+INFO:final_evaluate_rl:Episode 42: Recompensa del episodio: 118.93700117385015, Puntuacion final: 121.0
+INFO:final_evaluate_rl:Episode 43: Recompensa del episodio: 194.6044985189219, Puntuacion final: 197.0
+INFO:final_evaluate_rl:Episode 44: Recompensa del episodio: 132.86150104098488, Puntuacion final: 136.0
+INFO:final_evaluate_rl:Episode 45: Recompensa del episodio: 163.85549930855632, Puntuacion final: 165.0
+INFO:final_evaluate_rl:Episode 46: Recompensa del episodio: 150.84399813512573, Puntuacion final: 153.0
+INFO:final_evaluate_rl:Episode 47: Recompensa del episodio: 156.61199704557657, Puntuacion final: 159.0
+INFO:final_evaluate_rl:Episode 48: Recompensa del episodio: 179.59250103938393, Puntuacion final: 181.0
+INFO:final_evaluate_rl:Episode 49: Recompensa del episodio: 132.24500074854586, Puntuacion final: 134.0
+INFO:final_evaluate_rl:Episode 50: Recompensa del episodio: 189.81749908137135, Puntuacion final: 193.0
+INFO:final_evaluate_rl:Metricas guardadas en dqn_vecnorm_final_evaluation_metrics.txt
+Grafica guardada en best/dqn_variants/dqn_baseline/seed_126/best/dqn_vecnorm_reward_evolution.png
+
+Resumen:
+  Recompensa media (sin normalizar): 150.1624
+  Puntuacion final promedio:        152.3000

@@ -1,0 +1,8 @@
+{
+  "variant": "dqn_target_slow_grad_more",
+  "seed": 126,
+  "best_dir": "best/dqn_variants/dqn_target_slow_grad_more/seed_126/best",
+  "elapsed_sec": 2804.876320362091,
+  "mean_reward": 146.64681001717457,
+  "mean_score": 148.74
+}

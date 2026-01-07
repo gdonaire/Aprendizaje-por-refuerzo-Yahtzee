@@ -1,0 +1,8 @@
+{
+  "variant": "dqn_nstep5_epsfloor010",
+  "seed": 84,
+  "best_dir": "best/dqn_variants/dqn_nstep5_epsfloor010/seed_84/best",
+  "elapsed_sec": 1783.0399010181427,
+  "mean_reward": 144.2753001077322,
+  "mean_score": 146.68
+}

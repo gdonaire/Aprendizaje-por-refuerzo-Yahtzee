@@ -1,0 +1,8 @@
+{
+  "variant": "a2c_longrollout",
+  "seed": 84,
+  "best_dir": "best/a2c_ablation/a2c_longrollout/seed_84/best",
+  "elapsed_sec": 564.2159352302551,
+  "mean_reward": 117.61786985230516,
+  "mean_score": 119.82
+}

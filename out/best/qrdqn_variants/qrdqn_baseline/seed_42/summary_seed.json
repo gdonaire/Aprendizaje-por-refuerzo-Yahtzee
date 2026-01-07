@@ -1,0 +1,8 @@
+{
+  "variant": "qrdqn_baseline",
+  "seed": 42,
+  "best_dir": "best/qrdqn_variants/qrdqn_baseline/seed_42/best",
+  "elapsed_sec": 3738.102301836014,
+  "mean_reward": 136.4649598494463,
+  "mean_score": 138.56
+}

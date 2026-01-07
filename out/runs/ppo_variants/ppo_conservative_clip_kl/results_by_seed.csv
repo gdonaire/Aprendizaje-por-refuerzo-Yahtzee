@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+ppo_conservative_clip_kl,42,best/ppo_ablation/ppo_conservative_clip_kl/seed_42/best,2291.6239445209503,126.84874998401502,128.9
+ppo_conservative_clip_kl,84,best/ppo_ablation/ppo_conservative_clip_kl/seed_84/best,1785.8474323749542,121.25198995687767,123.56
+ppo_conservative_clip_kl,126,best/ppo_ablation/ppo_conservative_clip_kl/seed_126/best,1792.1830751895905,117.77143012262765,120.0

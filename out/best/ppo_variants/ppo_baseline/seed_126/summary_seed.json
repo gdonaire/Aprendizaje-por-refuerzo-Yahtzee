@@ -1,0 +1,8 @@
+{
+  "variant": "ppo_baseline",
+  "seed": 126,
+  "best_dir": "best/ppo_ablation/ppo_baseline/seed_126/best",
+  "elapsed_sec": 1719.7407083511353,
+  "mean_reward": 124.91936988983304,
+  "mean_score": 127.16
+}

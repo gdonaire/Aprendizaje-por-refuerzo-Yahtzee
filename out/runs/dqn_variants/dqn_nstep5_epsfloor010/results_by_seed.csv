@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+dqn_nstep5_epsfloor010,42,best/dqn_variants/dqn_nstep5_epsfloor010/seed_42/best,1734.9681243896484,142.515160179598,144.6
+dqn_nstep5_epsfloor010,84,best/dqn_variants/dqn_nstep5_epsfloor010/seed_84/best,1783.0399010181427,144.2753001077322,146.68
+dqn_nstep5_epsfloor010,126,best/dqn_variants/dqn_nstep5_epsfloor010/seed_126/best,1733.1545782089233,145.53407985692726,147.74

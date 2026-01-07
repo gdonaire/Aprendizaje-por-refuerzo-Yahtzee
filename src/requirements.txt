@@ -1,0 +1,7 @@
+gymnasium==1.2.1
+matplotlib==3.10.7
+numpy==2.3.4
+tqdm==4.67.1
+stable-baselines3[extra]==2.7.0
+sb3_contrib==2.7.0
+pandas==2.3.3

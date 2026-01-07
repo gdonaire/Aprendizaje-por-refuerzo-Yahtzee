@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+dqn_target_slow_grad_more,42,best/dqn_variants/dqn_target_slow_grad_more/seed_42/best,2939.6858026981354,145.69511026844614,148.12
+dqn_target_slow_grad_more,84,best/dqn_variants/dqn_target_slow_grad_more/seed_84/best,2846.242510318756,154.32384962371086,156.5
+dqn_target_slow_grad_more,126,best/dqn_variants/dqn_target_slow_grad_more/seed_126/best,2804.876320362091,146.64681001717457,148.74

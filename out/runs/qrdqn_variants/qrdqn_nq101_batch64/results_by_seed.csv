@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+qrdqn_nq101_batch64,42,best/qrdqn_variants/qrdqn_nq101_batch64/seed_42/best,9693.570803403854,146.42570016797515,148.66
+qrdqn_nq101_batch64,84,best/qrdqn_variants/qrdqn_nq101_batch64/seed_84/best,9590.53255534172,157.23912012907095,159.44
+qrdqn_nq101_batch64,126,best/qrdqn_variants/qrdqn_nq101_batch64/seed_126/best,9892.369549751282,131.68848998004222,133.98

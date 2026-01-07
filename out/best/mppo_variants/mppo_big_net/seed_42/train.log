@@ -1,0 +1,151 @@
+INFO:train_mppo_vecnorm:Creando 8 entornos paralelos...
+INFO:train_mppo_vecnorm:Activando wrapper de recompensa REAL por episodio (antes de VecNormalize)...
+INFO:train_mppo_vecnorm:Aplicando VecNormalize (obs y reward normalizados)...
+INFO:train_mppo_vecnorm:Usando arquitectura de politica: {'net_arch': {'pi': [256, 256, 256], 'vf': [256, 256, 256]}}
+INFO:train_mppo_vecnorm:Entrenando MPPO Fase 1 por 400000 timesteps...
+Argumentos de entrenamiento MPPO:
+  timesteps: 400000
+  timesteps2: 400000
+  timesteps3: 300000
+  n_envs: 8
+  seed: 42
+  lr: 0.0001
+  n_steps: 3
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  ent_coef: 0.02
+  clip_range: 0.2
+  vf_coef: 0.5
+  max_grad_norm: 1.0
+  policy_arch: {"pi":[256, 256,256], "vf":[256, 256,256]}
+  eval_episodes: 50
+  best_dir: best/mppo_variants/mppo_big_net/seed_42/best
+  plot_ma_long: 200
+Using cpu device
+----------------------------
+| time/              |     |
+|    fps             | 570 |
+|    iterations      | 1   |
+|    time_elapsed    | 0   |
+|    total_timesteps | 24  |
+----------------------------
+------------------------------------------
+| time/                   |              |
+|    fps                  | 286          |
+|    iterations           | 2            |
+|    time_elapsed         | 0            |
+|    total_timesteps      | 48           |
+| train/                  |              |
+|    approx_kl            | 0.0030759622 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.52        |
+|    explained_variance   | 0.0729       |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.531        |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.0303      |
+|    value_loss           | 1.74         |
+------------------------------------------
+------------------------------------------
+| time/                   |              |
+|    fps                  | 207          |
+|    iterations           | 3            |
+|    time_elapsed         | 0            |
+|    total_timesteps      | 72           |
+| train/                  |              |
+|    approx_kl            | 0.0021732028 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.43        |
+|    explained_variance   | 0.101        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.506        |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.0253      |
+|    value_loss           | 1.59         |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 28.7        |
+|    ep_rew_mean          | 137         |
+| time/                   |             |
+|    fps                  | 232         |
+|    iterations           | 4167        |
+|    time_elapsed         | 1289        |
+|    total_timesteps      | 300024      |
+| train/                  |             |
+|    approx_kl            | 0.050161555 |
+|    clip_fraction        | 0.196       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.617      |
+|    explained_variance   | 0.978       |
+|    learning_rate        | 0.0001      |
+|    loss                 | -0.0796     |
+|    n_updates            | 41660       |
+|    policy_gradient_loss | -0.0561     |
+|    value_loss           | 0.0166      |
+-----------------------------------------
+INFO:train_mppo_vecnorm:Modelo guardado en best/mppo_variants/mppo_big_net/seed_42/best/mppo_yahtzee_vecnorm_model y estadisticas de normalizacion en best/mppo_variants/mppo_big_net/seed_42/best/mppo_yahtzee_vecnorm_stats.pkl
+INFO:final_evaluate_rl:Autodeteccion: modelo=best/mppo_variants/mppo_big_net/seed_42/best/mppo_yahtzee_vecnorm_model, stats=best/mppo_variants/mppo_big_net/seed_42/best/mppo_yahtzee_vecnorm_stats.pkl, algo=mppo
+INFO:final_evaluate_rl:Cargando modelo: best/mppo_variants/mppo_big_net/seed_42/best/mppo_yahtzee_vecnorm_model
+INFO:final_evaluate_rl:Algo detectado/forzado: mppo
+INFO:final_evaluate_rl:Evaluando el modelo con recompensas SIN normalizar(evaluacion segura)...
+INFO:final_evaluate_rl:Episode 1: Recompensa del episodio: 152.30050108395517, Puntuacion final: 154.0
+INFO:final_evaluate_rl:Episode 2: Recompensa del episodio: 145.83350115467329, Puntuacion final: 148.0
+INFO:final_evaluate_rl:Episode 3: Recompensa del episodio: 124.46099959593266, Puntuacion final: 126.0
+INFO:final_evaluate_rl:Episode 4: Recompensa del episodio: 111.68699907069094, Puntuacion final: 114.0
+INFO:final_evaluate_rl:Episode 5: Recompensa del episodio: 146.328000202775, Puntuacion final: 149.0
+INFO:final_evaluate_rl:Episode 6: Recompensa del episodio: 132.47649985231692, Puntuacion final: 134.0
+INFO:final_evaluate_rl:Episode 7: Recompensa del episodio: 106.89850011328235, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 8: Recompensa del episodio: 155.08200017455965, Puntuacion final: 157.0
+INFO:final_evaluate_rl:Episode 9: Recompensa del episodio: 189.85349852545187, Puntuacion final: 193.0
+INFO:final_evaluate_rl:Episode 10: Recompensa del episodio: 116.89299790561199, Puntuacion final: 120.0
+INFO:final_evaluate_rl:Episode 11: Recompensa del episodio: 104.1589997112751, Puntuacion final: 106.0
+INFO:final_evaluate_rl:Episode 12: Recompensa del episodio: 108.13100015022792, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 13: Recompensa del episodio: 108.30550015997142, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 14: Recompensa del episodio: 135.4809983954765, Puntuacion final: 137.0
+INFO:final_evaluate_rl:Episode 15: Recompensa del episodio: 140.76899931021035, Puntuacion final: 143.0
+INFO:final_evaluate_rl:Episode 16: Recompensa del episodio: 99.88250033021905, Puntuacion final: 103.0
+INFO:final_evaluate_rl:Episode 17: Recompensa del episodio: 102.59149987646379, Puntuacion final: 105.0
+INFO:final_evaluate_rl:Episode 18: Recompensa del episodio: 81.02150080597494, Puntuacion final: 83.0
+INFO:final_evaluate_rl:Episode 19: Recompensa del episodio: 171.37799945572624, Puntuacion final: 174.0
+INFO:final_evaluate_rl:Episode 20: Recompensa del episodio: 158.87899853289127, Puntuacion final: 162.0
+INFO:final_evaluate_rl:Episode 21: Recompensa del episodio: 98.40100042289123, Puntuacion final: 101.0
+INFO:final_evaluate_rl:Episode 22: Recompensa del episodio: 108.07200019340962, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 23: Recompensa del episodio: 89.48450127989054, Puntuacion final: 92.0
+INFO:final_evaluate_rl:Episode 24: Recompensa del episodio: 127.88899988331832, Puntuacion final: 132.0
+INFO:final_evaluate_rl:Episode 25: Recompensa del episodio: 138.68350014230236, Puntuacion final: 140.0
+INFO:final_evaluate_rl:Episode 26: Recompensa del episodio: 143.8944991780445, Puntuacion final: 148.0
+INFO:final_evaluate_rl:Episode 27: Recompensa del episodio: 95.17749939626083, Puntuacion final: 97.0
+INFO:final_evaluate_rl:Episode 28: Recompensa del episodio: 152.84300027834252, Puntuacion final: 154.0
+INFO:final_evaluate_rl:Episode 29: Recompensa del episodio: 105.40300044417381, Puntuacion final: 107.0
+INFO:final_evaluate_rl:Episode 30: Recompensa del episodio: 94.36900021741167, Puntuacion final: 96.0
+INFO:final_evaluate_rl:Episode 31: Recompensa del episodio: 115.86749902670272, Puntuacion final: 118.0
+INFO:final_evaluate_rl:Episode 32: Recompensa del episodio: 150.8414990112651, Puntuacion final: 155.0
+INFO:final_evaluate_rl:Episode 33: Recompensa del episodio: 141.86149951029802, Puntuacion final: 144.0
+INFO:final_evaluate_rl:Episode 34: Recompensa del episodio: 150.8764998803381, Puntuacion final: 154.0
+INFO:final_evaluate_rl:Episode 35: Recompensa del episodio: 156.4454980045557, Puntuacion final: 158.0
+INFO:final_evaluate_rl:Episode 36: Recompensa del episodio: 153.12400156119838, Puntuacion final: 155.0
+INFO:final_evaluate_rl:Episode 37: Recompensa del episodio: 163.86849730624817, Puntuacion final: 166.0
+INFO:final_evaluate_rl:Episode 38: Recompensa del episodio: 147.6324976226315, Puntuacion final: 149.0
+INFO:final_evaluate_rl:Episode 39: Recompensa del episodio: 84.84600123111159, Puntuacion final: 87.0
+INFO:final_evaluate_rl:Episode 40: Recompensa del episodio: 113.6059995079413, Puntuacion final: 115.0
+INFO:final_evaluate_rl:Episode 41: Recompensa del episodio: 118.91399868950248, Puntuacion final: 122.0
+INFO:final_evaluate_rl:Episode 42: Recompensa del episodio: 134.9255002066493, Puntuacion final: 138.0
+INFO:final_evaluate_rl:Episode 43: Recompensa del episodio: 146.2220004722476, Puntuacion final: 148.0
+INFO:final_evaluate_rl:Episode 44: Recompensa del episodio: 153.86499628063757, Puntuacion final: 156.0
+INFO:final_evaluate_rl:Episode 45: Recompensa del episodio: 154.91499859653413, Puntuacion final: 157.0
+INFO:final_evaluate_rl:Episode 46: Recompensa del episodio: 107.97900018421933, Puntuacion final: 110.0
+INFO:final_evaluate_rl:Episode 47: Recompensa del episodio: 150.57999721961096, Puntuacion final: 152.0
+INFO:final_evaluate_rl:Episode 48: Recompensa del episodio: 152.22349859029055, Puntuacion final: 154.0
+INFO:final_evaluate_rl:Episode 49: Recompensa del episodio: 142.53350164741278, Puntuacion final: 144.0
+INFO:final_evaluate_rl:Episode 50: Recompensa del episodio: 122.07849938282743, Puntuacion final: 124.0
+INFO:final_evaluate_rl:Metricas guardadas en mppo_vecnorm_final_evaluation_metrics.txt
+Grafica guardada en best/mppo_variants/mppo_big_net/seed_42/best/mppo_vecnorm_reward_evolution.png
+
+Resumen:
+  Recompensa media (sin normalizar): 130.1967
+  Puntuacion final promedio:        132.4200

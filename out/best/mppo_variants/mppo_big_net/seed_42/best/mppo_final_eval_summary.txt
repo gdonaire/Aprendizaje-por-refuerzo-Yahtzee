@@ -1,0 +1,6 @@
+Episodios: 50
+Semilla: 42
+Modelo: mppo_yahtzee_vecnorm_model
+Stats: mppo_yahtzee_vecnorm_stats.pkl
+Recompensa media (sin normalizar): 130.1966795955191
+Puntuacion final promedio: 132.42

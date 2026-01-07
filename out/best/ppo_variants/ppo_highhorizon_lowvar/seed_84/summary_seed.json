@@ -1,0 +1,8 @@
+{
+  "variant": "ppo_highhorizon_lowvar",
+  "seed": 84,
+  "best_dir": "best/ppo_ablation/ppo_highhorizon_lowvar/seed_84/best",
+  "elapsed_sec": 1311.0409688949585,
+  "mean_reward": 123.23675993429147,
+  "mean_score": 125.48
+}

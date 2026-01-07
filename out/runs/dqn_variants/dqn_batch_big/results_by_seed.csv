@@ -1,0 +1,4 @@
+variant,seed,best_dir,elapsed_sec,mean_reward,mean_score
+dqn_batch_big,42,best/dqn_variants/dqn_batch_big/seed_42/best,1890.87748670578,152.88383006573423,154.96
+dqn_batch_big,84,best/dqn_variants/dqn_batch_big/seed_84/best,1943.1892273426056,150.7003401779046,152.94
+dqn_batch_big,126,best/dqn_variants/dqn_batch_big/seed_126/best,1967.1917691230774,147.420880049119,149.68
