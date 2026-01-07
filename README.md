@@ -11,7 +11,7 @@ Source venv/bin/actívate
 
 # Clonar repositorio 
 
-git clone https://github.com/gdonaire/05.629_TFG_Inteligencia_artificial_Aula1.git
+git clone https://github.com/gdonaire/Aprendizaje-por-refuerzo-Yahtzee.git
 
 # Instalar dependencias
 Pip install -r requirements.txt
